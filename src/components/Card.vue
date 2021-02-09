@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <section class="image">
-      <img alt="Vue logo" src="../assets/logo.png" />
+      <img alt="Vue logo" src="../assets/me.png" />
     </section>
     <div class="text">
       <h1>Esto es un título</h1>
@@ -18,15 +18,12 @@
 <script>
 export default {
   name: "Card",
-  props: {
-    msg: String,
-  },
 };
 </script>
 
 <style scoped lang="scss">
 .card {
-  margin: 20px auto;
+  margin: 20px;
   width: 500px;
   display: flex;
   justify-content: center;
@@ -38,6 +35,9 @@ export default {
     width: 200px;
     display: flex;
     align-items: center;
+    img{
+      width: 100%;
+    }
   }
   .text {
     padding: 0 20px;

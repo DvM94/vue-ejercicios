@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/cards">Cards</router-link> |
+    <router-link to="/reactividad">Reactividad</router-link>
   </div>
   <router-view/>
 </template>
@@ -19,11 +20,12 @@
   padding: 30px;
 
   a {
+    text-decoration: none;
     font-weight: bold;
-    color: #2c3e50;
+    color: #1f3850;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #47b0e0;
     }
   }
 }

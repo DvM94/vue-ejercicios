@@ -1,14 +1,15 @@
 <template>
-  <Card/>
-  <Card/>
-  <Card/>
+  <div class="cards">
+    <Card/>
+    <Card/>
+  </div>
 </template>
 
 <script>
 import Card from '@/components/Card.vue'
 
 export default {
-  name: 'Home',
+  name: 'Cards',
   components: {
     Card
   }

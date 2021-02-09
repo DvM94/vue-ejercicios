@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <Card/>
+  <h1>Bienvenido al primer contacto con Vue.js</h1>
+  <div class="cards">
     <Card/>
   </div>
 </template>
@@ -15,3 +15,12 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.cards{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+</style>
