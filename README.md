@@ -1,4 +1,6 @@
-# vue_2_09
+# Vue Ejercicios
+
+Primeros pasos con Vue.js. Ejercicios de toma de contacto con el framework.
 
 ## Project setup
 ```
